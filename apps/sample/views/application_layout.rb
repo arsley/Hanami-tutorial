@@ -1,7 +1,7 @@
-module Web
+module Sample
   module Views
     class ApplicationLayout
-      include Web::Layout
+      include Sample::Layout
     end
   end
 end

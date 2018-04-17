@@ -2,10 +2,10 @@ require 'bundler/setup'
 require 'hanami/setup'
 require 'hanami/model'
 require_relative '../lib/hanami_tutorial'
-require_relative '../apps/web/application'
+require_relative '../apps/sample/application'
 
 Hanami.configure do
-  mount Web::Application, at: '/'
+  mount Sample::Application, at: '/'
 
   model do
     ##
